@@ -35,7 +35,16 @@ Image is built up from a series of layers of instructions. An image corresponds 
 
 Layer corresponds to an instruction of the image’s Dockerfile. The layer is also an image but it is the image of the instructions run.
 
-**9. x**
+**9. Volume Types**  
+    - Anonymous: It's created specifically for a single container, and it's removed when the container is removed.  
+    - Named: It persists after the container is removed, can be shared across multiple containers  
+    - Bind Mount: It persists after the container is removed. It's mapped to a host folder. Can be share across multiple containers.
+
+**10. What is Docker Image registry**   
+It's an area where the docker images are stored. Instead of converting the applications to containers each and every time, a developer can directly use the images stored in the registry.
+
+**11. What is Docker Compose?**  
+It is a YAML file consisting of all the details regarding various services, networks, and volumes that are needed for setting up the Docker-based application. So, docker-compose is used for creating multiple containers, host them and establish communication between them. For the purpose of communication amongst the containers, ports are exposed by each and every container.  
 
 ## Cheat sheet ##
 | Command | Description |
