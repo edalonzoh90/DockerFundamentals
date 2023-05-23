@@ -35,7 +35,7 @@ Image is built up from a series of layers of instructions. An image corresponds 
 
 Layer corresponds to an instruction of the image’s Dockerfile. The layer is also an image but it is the image of the instructions run.
 
-**9. **
+**9. x**
 
 ## Cheat sheet ##
 | Command | Description |
